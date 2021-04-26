@@ -1,0 +1,159 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body{
+  
+  margin: 0;
+     padding: 0;
+     font-family: "Hiragino Kaku Gothic Pro", "ヒラギノ角ゴ Pro W3", メイリオ, Meiryo, "ＭＳ Ｐゴシック", "Helvetica Neue", Helvetica, Arial, sans-serif;
+     background-color: #e6e6e6;
+    }
+  
+  header{
+   width:100%;
+   padding:30px 4% 10px;
+   background-color:#fff; 
+   position: fixed;
+   top: 0;
+   display: flex;
+   align-items: center;
+  }
+  
+  nav{
+  margin: 0 0 0 auto;
+  }
+   h1{
+    margin:0; padding:0;
+    font-size:20px;
+  }
+  
+  a{
+    text-decoration: none;
+    color: #4b4b4b;
+  }
+  
+  ul{
+    list-style:none;
+    margin:0;
+    display:flex;
+  }
+  
+  li{
+    margin: 0 0 0 15px;
+    font-size:14px;
+  }
+  
+  
+  
+  .top-wapper{
+   display:flex;
+   justify-content:flex-start;
+   align-items:center;
+   height:100vh;
+   background-image: url(https://enctools.com/wp-content/uploads/2018/10/sea-2361247_1280-800x600.jpg);
+   background-size:cover;
+   color:#fff;
+  }
+  label {
+    margin-right: 10px;
+    width:100px;
+    float: left;
+}
+  
+  .price-wapper{
+  }
+  
+  table{
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  table tr{
+    border-bottom: solid 2px white;
+  }
+  
+  table tr:last-child{
+    border-bottom: none;
+  }
+  
+  table th{
+    position: relative;
+    text-align: left;
+    width: 30%;
+    background-color: #52c2d0;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+  }
+  
+  table th:after{
+    display: block;
+    content: "";
+    width: 0px;
+    height: 0px;
+    position: absolute;
+    top:calc(50% - 10px);
+    right:-10px;
+    border-left: 10px solid #52c2d0;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+  }
+  
+  table td{
+    text-align: left;
+    width: 70%;
+    text-align: center;
+    background-color: #eee;
+    padding: 10px 0;
+  }
+  .google-maps {
+    position: relative;
+    padding-bottom: 40%; // これが縦横比
+    height: 0;
+    overflow: hidden;
+    }
+    .google-maps iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100% !important;
+    height: 100% !important;
+    }
+  
+  
+  .access-wapper{
+  }
+  
+  .contactform-wapper{
+    width: 100%;
+    margin : 0 auto ; 
+  }
+  .form-submit-button {
+    display: inline-block;
+    width: 100%;
+    padding: 15px;
+    border: none;
+    border-radius: 4px;
+    background-color: #333;
+    color: #fff;
+    font-weight: bold;
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    cursor: pointer;
+    border: 2px solid transparent;
+}
+
+.form-submit-button:hover {
+    background-color: #000;
+}
+
+.form-submit-button:focus {
+    outline: 0;
+    background-color: #000;
+    border: 2px solid rgb(33, 150, 243);
+}
+  
+  footer{
+  }
